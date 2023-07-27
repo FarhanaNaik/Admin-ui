@@ -1,0 +1,112 @@
+/* AdminUI.css */
+
+.admin-ui-container {
+  margin: 20px auto;
+  max-width: 800px;
+  padding: 20px;
+  background-color: hsl(0, 6%, 76%);
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+  border-radius: 5px;
+}
+
+.admin-ui-heading {
+  text-align: center;
+  font-size: 24px;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.admin-ui-search-box {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.admin-ui-search-input {
+  flex: 1;
+  padding: 8px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.admin-ui-table {
+  width: 100%;
+  border-collapse: collapse;
+  text-align: left;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+.admin-ui-table th,
+.admin-ui-table td {
+  border: 1px solid #ccc;
+  padding: 10px;
+}
+
+.admin-ui-table th {
+  background-color: #f0f0f0;
+  font-weight: bold;
+}
+
+.admin-ui-table tr.selected {
+  background-color: #e1f3ff;
+}
+
+.admin-ui-pagination {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.admin-ui-pagination button {
+  margin: 5px;
+  padding: 5px 10px;
+  border: 1px solid #ccc;
+  background-color: #fff;
+  cursor: pointer;
+}
+
+.admin-ui-all-delete-button {
+  margin-top: 20px;
+  padding: 10px 20px;
+  background-color: #ff4d4d;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+/* AdminUI.css */
+
+/* ... (previously defined styles remain unchanged) */
+
+/* Edit button */
+.admin-ui-edit-button {
+  padding: 5px 10px;
+  background-color: hsl(0, 100%, 67%);
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+/* Update button */
+.admin-ui-update-button {
+  padding: 5px 10px;
+  background-color: #33cc33;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.admin-ui-delete-button {
+  padding: 5px 10px;
+  background-color:rgb(94, 7, 7);
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
